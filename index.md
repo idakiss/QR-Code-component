@@ -24,6 +24,53 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <!-- this links over the css stylesheet for this page's styling -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:400,700"> 
+  <!-- this stylesheet is linked to google's font api instead of manually downloading it onto the computer it will fetch font from that link -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style></style>
+</head>
+<body>
+  <!-- the body in this case would be my container which would center the card -->
+  <div class="card"> 
+    <!-- this is the card -->
+      <div>
+        <a href="https://www.frontendmentor.io?ref=challenge">
+          <img src="./images/image-qr-code.png" alt="qr code redirects you to frontendmentor.io " 
+          title="Frontend Mentor | Front-end coding challenges using a real-life workflow">
+        </a>
+        <!-- this is the qr code -->
+      </div>
+
+      <div>
+        <h1>Improve your front-end skills by building projects</h1>
+      </div>
+
+      <div>
+        <p><small>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</small></p>
+      </div>
+      
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Aki</a>.
+      </div>
+  </div>
+</div>
+</body>
+</html>
+
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
