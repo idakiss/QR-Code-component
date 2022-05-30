@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: QR-Code-Component
 description: this is my submission to the QR Code component challenge from frontendmentor.io
+
+layout: page
+title: "QR-Code-Component"
+permalink: /QR-Code_component/index.html
