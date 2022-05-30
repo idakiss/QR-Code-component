@@ -14,7 +14,6 @@
         .card {
             flex-direction: column;
             /* flex direction column centers top to bottom */
-            /* width: 20%; */
             width: 216px;
             height: 348px;
             text-align: center;
@@ -27,18 +26,22 @@
 
     
         img {
-            border-radius: 10px;
+            border-radius: 9px;
             justify-content: center;
             max-width: 100%;
             /* 100% brings img into card instead of bleeding out */
         }
         
         h1 {
-            font-size: 17px;
+            font-size: 15px;
             font-weight: 700;
             line-height: 125%;
             color: hsl(218, 44%, 22%);
-            max-width: 200px;
+            max-width: 180px;
+            margin-right: auto;
+            margin-left: auto;
+            transform: scale(1.1);
+            margin-top: 15px;
         }
         
         p {
@@ -46,12 +49,15 @@
             font-weight: 400;
             color: hsl(220, 15%, 55%);
             /* do not change */
-            line-height: 90%;
-            /* line space between texts above/below */
-            max-width: 155px;
-            word-spacing: 1mm;
+            line-height: 95%;
+            /* line space between texts above-below */
+            word-spacing: 1px;
             margin-left: auto;
             margin-right: auto;
+            transform: scale(.9);
+            /* makes paragraph smaller without changing font size */
+            margin-top: .8em;
+            /* brings paragraph closer-farther to h1 */
         }
     
         .attribution { 
