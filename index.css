@@ -2,8 +2,6 @@
         /* change screen */
     
         body {
-            /* min-width: 375px;
-            max-width: 1440px; */
             font-family: 'Outfit';
             background-color: hsl(212, 45%, 89%);
             margin: 39px;
