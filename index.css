@@ -1,0 +1,67 @@
+    @media only screen and (min-width: 375px) and (max-width:1440px) {
+        /* change screen */
+    
+        body {
+            /* min-width: 375px;
+            max-width: 1440px; */
+            font-family: 'Outfit';
+            background-color: hsl(212, 45%, 89%);
+            margin: 39px;
+            height: 210px;
+            /* height of the card matches exact of design */
+            display: flex;
+            justify-content: center;
+        }
+    
+        .card {
+            flex-direction: column;
+            /* flex direction column centers top to bottom */
+            /* width: 20%; */
+            width: 216px;
+            height: 348px;
+            text-align: center;
+            background-color: hsl(0, 0%, 100%);
+            padding: 13px;
+            /* gives space between img */
+            border-radius: 15px; 
+            /* border radius curves the edge */
+        }
+
+    
+        img {
+            border-radius: 10px;
+            justify-content: center;
+            max-width: 100%;
+            /* 100% brings img into card instead of bleeding out */
+        }
+        
+        h1 {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 125%;
+            color: hsl(218, 44%, 22%);
+            max-width: 200px;
+        }
+        
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            color: hsl(220, 15%, 55%);
+            /* do not change */
+            line-height: 90%;
+            /* line space between texts above/below */
+            max-width: 155px;
+            word-spacing: 1mm;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .attribution { 
+            font-size: 11px; 
+            text-align: center; 
+            padding: 10%;
+        }
+        .attribution a { 
+            color: hsl(228, 45%, 44%); 
+        }
+    }
