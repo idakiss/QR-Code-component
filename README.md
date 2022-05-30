@@ -6,9 +6,9 @@ Mdn docs
 
 I worked my way up starting from the bottom, the body section; 
 
-Used div, class, id in body, giving the div class 'card' and class for upper and lower; I later got rid of the classes on div and added them to h1 and h2 tags
+Used div, class, id in body, giving the div class 'card' and class for upper and lower; I later got rid of the classes on div and added the css styles to h1 and p tags
 
-From there, I went up to style tag and added body, card, and 
+From there, I went up to style tag and added body, card, h1, p and img
 
 After that, I moved up to the head tag and added a link tag with a stylesheet and a reference to Google's api font; from there I configured the font by first having to add the weights onto the api url in order to use them in my stylesheet
 
