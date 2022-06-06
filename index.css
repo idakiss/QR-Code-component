@@ -1,14 +1,19 @@
-    @media only screen and (min-width: 375px) and (max-width: 1440px) {
-        /* change screen */
-    
+    /* @media only screen and (min-width: 375px) and (max-width:1440px) {
+        change screen
+        don't need this due to the simplicity of the project only use if it doesnt
+        work with multiple different screen  variations eg tablet/phone computer etc
+     */
         body {
             font-family: 'Outfit';
             background-color: hsl(212, 45%, 89%);
-            margin: 39px;
-            height: 210px;
+            /* margin: 39px; */
+            /* height: 210px; */
             /* height of the card matches exact of design */
             display: flex;
             justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0%;
         }
     
         .card {
@@ -68,4 +73,4 @@
         .attribution a { 
             color: hsl(228, 45%, 44%); 
         }
-    }
+    
