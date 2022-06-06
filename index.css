@@ -9,6 +9,7 @@
             /* margin: 39px; */
             /* height: 210px; */
             /* height of the card matches exact of design */
+            /* don't need this anymore with the min-height centering the card */
             display: flex;
             justify-content: center;
             align-items: center;
